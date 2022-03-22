@@ -1,0 +1,173 @@
+:root {
+    --accent-color: rgb(138, 17, 17);
+}
+
+html {
+    font-family: "Inter", sans-serif;
+    font-size: 62.5%;
+}
+
+header {
+    padding: 100px 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    font-size: 3.6rem !important;
+    letter-spacing: -.015em !important;
+}
+
+h3 {
+    font-size: 3.2rem !important;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 9vmin;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -.03em;
+    line-height: 1em;
+}
+
+.description {
+    text-align: center;
+    margin: 1em;
+    font-family: 'STIX Two Text', serif;
+    font-size: 3rem;
+    line-height: 1.4em;
+}
+
+@media (max-width: 600px) {
+    .description {
+        font-size: 2.4rem;
+    }
+}
+
+.card {
+    border: 0px !important;
+}
+
+figcaption {
+    color: rgba(0, 0, 0, .5);
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.4em;
+    padding: 1.5rem 1.5rem 0;
+    text-align: center;
+}
+
+.line {
+    display: block;
+    grid-column: wide-start/wide-end;
+    opacity: .1;
+    width: 100%;
+    margin: 5em;
+}
+
+.preface {
+    padding-top: 0;
+}
+
+figure {
+    margin-top: 6vmin !important;
+}
+
+.how-to,
+.contribute,
+.submit,
+.how-to-3 {
+    background-color: #f1f1f1;
+}
+
+.email-form {
+    background-color: black;
+}
+
+.text {
+    font-family: 'STIX Two Text', serif;
+    font-size: 2rem;
+    font-weight: 400;
+    display: block;
+    margin-top: 3rem;
+}
+
+.list {
+    font-family: 'STIX Two Text', serif;
+    font-size: 2rem;
+    font-weight: 400;
+    display: block;
+    margin-top: 2rem;
+}
+
+li {
+    margin-top: 1rem;
+}
+
+.first {
+    margin-top: 0;
+}
+
+@media (max-width: 650px) {
+    .text {
+        font-size: 1.9rem;
+        margin-top: 2rem;
+    }
+}
+
+.text-title {
+    font-size: 3.6rem;
+    letter-spacing: -.015em;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: var(--accent-color)
+}
+
+section {
+    padding: 50px 0;
+}
+
+blockquote {
+    background-color: #f1f1f1;
+    border-left: 5px solid var(--accent-color);
+    color: var(--secondary-text-color);
+    font-family: 'STIX Two Text', serif;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: -.03rem;
+    line-height: 1.5;
+    margin-top: 2em !important;
+    padding: 2rem 3rem;
+    font-style: italic;
+}
+
+.form-input {
+    padding: 18px 12px 18px 12px !important;
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 2px solid black !important;
+    border-left: 0 !important;
+    border-radius: 0 !important;
+    border: 1px solid #e3e3e3;
+    flex: 1 0 auto;
+    line-height: 1.4;
+    margin: 0;
+    font-size: 16px;
+}
+
+.form-button {
+    background-color: var(--accent-color);
+    color: white !important;
+    padding: 2rem 3rem;
+    border: none;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+}

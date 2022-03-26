@@ -171,3 +171,13 @@ blockquote {
 .container {
     width: 100%;
 }
+
+li {
+    margin: 0;
+    padding: 0px 0 0px 32px;
+    list-style: none;
+    background-image: url(Untitled-2.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 10px;
+}
